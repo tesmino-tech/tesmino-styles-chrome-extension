@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest",
+  "name": "Tesmino Styles",
+  "description": "Style for Websites!",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "16": "/img/icon-16.png",
+    "32": "/img/icon-32.png",
+    "48": "/img/icon-48.png",
+    "128": "/img/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "css": ["/css/clickup.css"],
+      "matches": ["https://app.clickup.com/*", "http://app.clickup.com/*"]
+    }
+  ]
+}
