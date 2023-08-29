@@ -10,3 +10,12 @@ body * {
 .ql-editor .ql-align-right {
   direction: rtl !important;
 }
+
+.ql-editor  ol li.ql-align-right {
+  padding-left: 10px !important;
+  padding-right: 2.2em !important;
+}
+
+.ql-editor  ol li.ql-align-right span {
+  margin-right: -35px !important;
+}
